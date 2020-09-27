@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;STM32F103C8T6_SSD1351/Core/Src/ssd1351.h&apos;" deleteContents="false" description="Delete resource &apos;STM32F103C8T6_SSD1351/Core/Src/ssd1351.h&apos;" element1="/STM32F103C8T6_SSD1351/Core/Src/ssd1351.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1600886428579"/>&#x0A;<refactoring comment="Delete resource &apos;STM32F103C8T6_SSD1351/Core/Lib&apos;" deleteContents="false" description="Delete resource &apos;STM32F103C8T6_SSD1351/Core/Lib&apos;" element1="/STM32F103C8T6_SSD1351/Core/Lib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1600886702158"/>
+</session>

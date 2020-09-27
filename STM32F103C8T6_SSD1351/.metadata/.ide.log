@@ -1,0 +1,958 @@
+2020-09-23 12:58:27,570 [INFO] Activator:178 - 
+
+
+2020-09-23 12:58:27,570 [INFO] Activator:179 - !SESSION log4j initialized
+2020-09-23 12:58:51,131 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-09-23 12:58:51,135 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-09-23 12:58:51,135 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-09-23 12:58:51,135 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:51,135 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:51,135 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:51,151 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:51,151 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:51,151 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:51,151 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,010 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-23 12:58:52,018 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,142 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2020-09-23 12:58:52,250 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2020-09-23 12:58:52,250 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-09-23 12:58:52,250 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-09-23 12:58:52,250 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:52,250 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:52,250 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:52,250 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:52,250 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:52,250 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:52,250 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:52,250 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,000 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-23 12:58:53,000 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,000 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:53,096 [INFO] MainPanel:189 - HeapMemory: 309329920
+2020-09-23 12:58:53,167 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/
+2020-09-23 12:58:53,168 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/boardmanager/
+2020-09-23 12:58:53,168 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:53,168 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:53,168 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/plugins/mcufinder/images/
+2020-09-23 12:58:53,169 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,169 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:53,169 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,170 [INFO] DbMcusJson:63 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:53,170 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,170 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:53,170 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,170 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:53,170 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:53,171 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:54,002 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-09-23 12:58:54,002 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder/ => C:\Users\Alexandre\.stmcufinder\plugins\mcufinder
+2020-09-23 12:58:54,002 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder//mcu/
+2020-09-23 12:58:54,032 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-09-23 12:58:54,034 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2020-09-23 12:58:54,035 [INFO] PluginManage:292 - Check plugin analytics
+2020-09-23 12:58:55,081 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: 
+2020-09-23 12:58:55,082 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2020-09-23 12:58:55,082 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2020-09-23 12:58:55,082 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-09-23 12:58:55,083 [INFO] PluginManage:292 - Check plugin clock
+2020-09-23 12:58:55,146 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-09-23 12:58:55,146 [INFO] PluginManage:292 - Check plugin ddr
+2020-09-23 12:58:55,150 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-09-23 12:58:55,150 [INFO] PluginManage:292 - Check plugin filemanager
+2020-09-23 12:58:55,294 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-09-23 12:58:55,294 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-09-23 12:58:55,306 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-09-23 12:58:55,306 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-09-23 12:58:55,317 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-09-23 12:58:55,318 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-09-23 12:58:55,335 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-09-23 12:58:55,351 [INFO] PluginManage:292 - Check plugin power
+2020-09-23 12:58:55,351 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-09-23 12:58:55,351 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-09-23 12:58:55,398 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-09-23 12:58:55,398 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-09-23 12:58:55,492 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/Alexandre/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 47 ms. number of Sw pack : 22
+2020-09-23 12:58:55,492 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-09-23 12:58:55,492 [INFO] PluginManage:292 - Check plugin tools
+2020-09-23 12:58:55,492 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-09-23 12:58:55,492 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-09-23 12:58:55,726 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2020-09-23 12:58:55,726 [INFO] PluginManage:292 - Check plugin updater
+2020-09-23 12:58:55,726 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-09-23 12:58:55,726 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2020-09-23 12:58:55,960 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-09-23 12:58:56,099 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,099 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-09-23 12:58:56,099 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,099 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-09-23 12:58:56,099 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,099 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-09-23 12:58:56,099 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,099 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-09-23 12:58:56,099 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,114 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-09-23 12:58:56,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,114 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-09-23 12:58:56,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,114 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-09-23 12:58:56,114 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,114 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-09-23 12:58:56,130 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,130 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-09-23 12:58:56,130 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,130 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-09-23 12:58:56,146 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,146 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-09-23 12:58:56,146 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,146 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-09-23 12:58:56,146 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,146 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-09-23 12:58:56,161 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,161 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-09-23 12:58:56,161 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,161 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-09-23 12:58:56,161 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,161 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-09-23 12:58:56,161 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,161 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-09-23 12:58:56,161 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,161 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-09-23 12:58:56,177 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,177 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-09-23 12:58:56,177 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,177 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-09-23 12:58:56,177 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,177 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-09-23 12:58:56,177 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,177 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-09-23 12:58:56,177 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,177 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-09-23 12:58:56,192 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,192 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2020-09-23 12:58:56,192 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,192 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-09-23 12:58:56,192 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,208 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-09-23 12:58:56,208 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,208 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-09-23 12:58:56,208 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,208 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-09-23 12:58:56,208 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,208 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-09-23 12:58:56,208 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,208 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-09-23 12:58:56,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,224 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-09-23 12:58:56,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,239 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-09-23 12:58:56,239 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:58:56,239 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-09-23 12:58:56,677 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2020-09-23 12:58:57,700 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-09-23 12:58:57,910 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-09-23 12:58:57,910 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-09-23 12:58:57,910 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-09-23 12:58:57,911 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-09-23 12:58:57,914 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-09-23 12:58:57,915 [FATAL] Updater:282 - Updater called before beeing initialized
+2020-09-23 12:58:57,921 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2020-09-23 12:58:57,923 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-09-23 12:58:57,927 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2020-09-23 12:58:58,128 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2020-09-23 12:58:58,136 [INFO] Updater:904 - Updater Version found : 6.0.1
+2020-09-23 12:58:58,167 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643
+2020-09-23 12:58:58,386 [INFO] MainUpdater:2268 - connection check result : 10
+2020-09-23 12:58:58,386 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2020-09-23 12:58:58,386 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-09-23 12:58:58,433 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2020-09-23 12:58:58,496 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2020-09-23 12:58:58,496 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2020-09-23 12:58:58,496 [INFO] MainUpdater:2268 - connection check result : 10
+2020-09-23 12:58:58,589 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Alexandre/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-09-23 12:58:58,652 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/Alexandre/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2020-09-23 12:58:58,683 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2020-09-23 12:58:58,683 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2020-09-23 12:58:58,746 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-09-23 12:58:59,051 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Alexandre\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2020-09-23 12:58:59,057 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2020-09-23 12:58:59,059 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2020-09-23 12:58:59,061 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\/mcu/families.xml
+2020-09-23 12:58:59,983 [INFO] DbMcusJson:92 - JSON generation date=Mon Jul 27 09:58:30 BRT 2020 (1595854710)
+2020-09-23 12:59:01,103 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1728 are visible in CubeMX)
+2020-09-23 12:59:01,104 [INFO] ApiDb:201 - Load user favorites file C:\Users\Alexandre/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-09-23 12:59:01,104 [INFO] ApiDb:205 - User favorites MCUs=[]
+2020-09-23 12:59:01,104 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2020-09-23 12:59:01,630 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2020-09-23 12:59:01,661 [INFO] DetailPanel:331 - Set advertising image to C:/Users/Alexandre/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2020-09-23 12:59:02,139 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2020-09-23 12:59:02,261 [INFO] DbBoardsPdsc:94 - Found 23 items
+2020-09-23 12:59:02,263 [INFO] DbBoardsPdsc:94 - Found 9 items
+2020-09-23 12:59:02,267 [INFO] DbBoardsPdsc:94 - Found 29 items
+2020-09-23 12:59:02,269 [INFO] DbBoardsPdsc:94 - Found 1 items
+2020-09-23 12:59:02,277 [INFO] DbBoardsPdsc:94 - Found 44 items
+2020-09-23 12:59:02,285 [INFO] DbBoardsPdsc:94 - Found 40 items
+2020-09-23 12:59:02,288 [INFO] DbBoardsPdsc:94 - Found 2 items
+2020-09-23 12:59:02,290 [INFO] DbBoardsPdsc:94 - Found 4 items
+2020-09-23 12:59:02,302 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2020-09-23 12:59:02,302 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2020-09-23 12:59:02,306 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2020-09-23 12:59:02,306 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2020-09-23 12:59:02,307 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2020-09-23 12:59:02,336 [INFO] DbBoardsJson:85 - JSON generation date=Thu Jul 02 10:35:57 BRT 2020 (1593696957)
+2020-09-23 12:59:02,352 [INFO] DbBoards:117 - Found 152 boards (149 are supported by CubeMX)
+2020-09-23 12:59:02,367 [INFO] DbBoardsDocs:145 - JSON generation date=Mon Jul 27 09:58:30 BRT 2020 (1595854710)
+2020-09-23 12:59:02,414 [INFO] DbBoardsDocs:81 - Found 185 boards documents
+2020-09-23 12:59:02,414 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4624
+2020-09-23 12:59:02,414 [WARN] DbBoards:149 - board B-G474E-DPOW1 / document id not found: 4625
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board NUCLEO-G491RE has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board NUCLEO-H723ZG has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board NUCLEO-H743ZI2 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2020-09-23 12:59:02,414 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32H735G-DK has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2020-09-23 12:59:02,430 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2020-09-23 12:59:02,555 [ERROR] DbBoards:192 - No image file URL for board B-L462E-CELL1
+2020-09-23 12:59:03,992 [INFO] ApiDb:201 - Load user favorites file C:\Users\Alexandre/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-09-23 12:59:03,992 [INFO] ApiDb:205 - User favorites Boards=[]
+2020-09-23 12:59:03,992 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2020-09-23 12:59:17,130 [INFO] MainUpdater:2268 - connection check result : 10
+2020-09-23 12:59:17,130 [INFO] MainUpdater:2268 - connection check result : 10
+2020-09-23 12:59:17,193 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-09-23 12:59:17,193 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-09-23 12:59:17,193 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2020-09-23 12:59:17,193 [INFO] ThirdParty:777 - entering critical section [close project]
+2020-09-23 12:59:17,193 [INFO] ThirdParty:790 - exiting critical section [close project]
+2020-09-23 12:59:17,193 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-09-23 12:59:17,193 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 370035688 Bytes (468713472)
+2020-09-23 12:59:17,193 [INFO] MicroXplorer:384 - Change Database Path : 
+2020-09-23 12:59:17,193 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2020-09-23 12:59:17,193 [INFO] OpenFileManager:274 - Change cursor
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.1.1: no header file found
+2020-09-23 12:59:18,992 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2020-09-23 12:59:18,992 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2020-09-23 12:59:18,992 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2020-09-23 12:59:18,992 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2020-09-23 12:59:18,992 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1600636102127
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.2.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.2.0.0: no header file found
+2020-09-23 12:59:18,992 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.0.0: no header file found
+2020-09-23 12:59:19,340 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 374531728 Bytes (468713472)
+2020-09-23 12:59:19,340 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2020-09-23 12:59:19,340 [INFO] ThirdParty:743 - entering critical section [change project]
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.1.1
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 2.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 2.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.14.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.1.2
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2020-09-23 12:59:19,340 [INFO] ThirdParty:749 - exiting critical section [change project]
+2020-09-23 12:59:19,683 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2020-09-23 12:59:19,683 [INFO] PinOutPanel:1418 - setPackage(STM32F103C8Tx,LQFP48)
+2020-09-23 12:59:20,218 [INFO] UtilMem:74 - Before build in PCC Used Memory: 341389688 Bytes (468713472)
+2020-09-23 12:59:20,812 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Alexandre/.stm32cubemx/plugins/power
+2020-09-23 12:59:20,875 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Alexandre/.stm32cubemx/plugins/power
+2020-09-23 12:59:20,953 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Alexandre/.stm32cubemx/plugins/power
+2020-09-23 12:59:20,953 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/Alexandre/.stm32cubemx/plugins/power
+2020-09-23 12:59:21,181 [INFO] UtilMem:74 - After build in PCC Used Memory: 394340736 Bytes (468713472)
+2020-09-23 12:59:21,218 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,218 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,218 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,219 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,219 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,219 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,220 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,220 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,220 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,221 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,221 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,221 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,222 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,222 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,222 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,223 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,223 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,223 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,224 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,225 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,225 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,225 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,226 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,226 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,227 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2020-09-23 12:59:21,293 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-09-23 12:59:21,621 [INFO] OpenFileManager:294 - Restore cursor
+2020-09-23 12:59:22,074 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 393429136 Bytes (468713472)
+2020-09-23 12:59:22,199 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 401074280 Bytes (468713472)
+2020-09-23 12:59:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 12:59:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 12:59:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 12:59:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 12:59:22,918 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 12:59:22,918 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 12:59:23,766 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 12:59:24,465 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 12:59:24,668 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 12:59:24,871 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 12:59:24,980 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 12:59:25,061 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 12:59:25,259 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 12:59:25,290 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 12:59:25,415 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 12:59:25,462 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 12:59:25,681 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 12:59:25,712 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 12:59:25,853 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 12:59:25,900 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 12:59:26,060 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 12:59:26,102 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 12:59:26,103 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 12:59:26,154 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 12:59:26,264 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 12:59:26,310 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 12:59:26,482 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 12:59:27,826 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 484mS.
+2020-09-23 12:59:27,842 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 12:59:28,423 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 12:59:28,438 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2020-09-23 12:59:28,454 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2020-09-23 12:59:28,485 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2020-09-23 12:59:34,079 [ERROR] root:96 - SUCCESS
+2020-09-23 12:59:34,181 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 6339mS.
+2020-09-23 12:59:34,182 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-09-23 12:59:34,186 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 13:22:23,036 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 14:04:55,861 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 732500904 Bytes (983564288)
+2020-09-23 14:04:59,164 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 817093312 Bytes (983564288)
+2020-09-23 14:04:59,414 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 868999864 Bytes (983564288)
+2020-09-23 14:04:59,664 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 14:04:59,664 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 14:04:59,664 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 14:04:59,664 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 14:04:59,664 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 14:04:59,664 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 14:04:59,914 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 14:04:59,992 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 14:05:00,077 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 14:05:00,200 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 14:05:00,278 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 14:05:00,356 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 14:05:00,523 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 14:05:00,585 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 14:05:00,695 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 14:05:00,742 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 14:05:00,898 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 14:05:00,913 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 14:05:01,054 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 14:05:01,288 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 14:05:01,504 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 14:05:01,536 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 14:05:01,536 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 14:05:01,599 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 14:05:01,724 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 14:05:01,771 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 14:05:01,927 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 14:05:03,075 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 589mS.
+2020-09-23 14:05:03,079 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 14:05:03,806 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 14:05:05,653 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2574mS.
+2020-09-23 14:05:05,654 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 14:05:05,658 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 14:12:27,382 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 812160232 Bytes (1047527424)
+2020-09-23 14:12:30,544 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 532789888 Bytes (1047527424)
+2020-09-23 14:12:30,841 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 619735784 Bytes (1047527424)
+2020-09-23 14:12:31,060 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 14:12:31,060 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 14:12:31,060 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 14:12:31,060 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 14:12:31,060 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 14:12:31,060 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 14:12:31,263 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 14:12:31,341 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 14:12:31,388 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 14:12:31,466 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 14:12:31,513 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 14:12:31,560 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 14:12:31,653 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 14:12:31,669 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 14:12:31,794 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 14:12:31,856 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 14:12:31,981 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 14:12:31,997 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 14:12:32,087 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 14:12:32,124 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 14:12:32,239 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 14:12:32,264 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 14:12:32,265 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 14:12:32,304 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 14:12:32,398 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 14:12:32,445 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 14:12:32,664 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 14:12:33,317 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 125mS.
+2020-09-23 14:12:33,333 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 14:12:33,645 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 14:12:36,186 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2853mS.
+2020-09-23 14:12:36,186 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 14:12:36,202 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 14:47:46,946 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 597512376 Bytes (1073741824)
+2020-09-23 14:47:47,068 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 634212536 Bytes (1073741824)
+2020-09-23 14:47:47,334 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 687167664 Bytes (1073741824)
+2020-09-23 14:47:47,600 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 14:47:47,600 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 14:47:47,600 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 14:47:47,600 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 14:47:47,600 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 14:47:47,600 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 14:47:47,803 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 14:47:47,865 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 14:47:47,896 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 14:47:47,975 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 14:47:48,006 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 14:47:48,053 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 14:47:48,147 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 14:47:48,178 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 14:47:48,256 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 14:47:48,287 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 14:47:48,396 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 14:47:48,412 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 14:47:48,475 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 14:47:48,506 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 14:47:48,615 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 14:47:48,631 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 14:47:48,631 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 14:47:48,693 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 14:47:48,897 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 14:47:48,943 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 14:47:49,118 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 14:47:49,761 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 125mS.
+2020-09-23 14:47:49,776 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 14:47:50,087 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 14:47:52,458 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2682mS.
+2020-09-23 14:47:52,458 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 14:47:52,458 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 15:01:59,694 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 15:02:15,161 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 15:02:15,333 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 15:09:56,303 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705142608 Bytes (1073741824)
+2020-09-23 15:09:56,381 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 715628368 Bytes (1073741824)
+2020-09-23 15:10:00,107 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 829923152 Bytes (1073741824)
+2020-09-23 15:10:00,312 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 15:10:02,646 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 15:10:02,646 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 15:10:02,646 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 15:10:02,646 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 15:10:02,646 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 15:10:02,646 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 15:10:02,911 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 15:10:02,974 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 15:10:03,022 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 15:10:03,094 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 15:10:03,128 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 15:10:03,161 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 15:10:03,251 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 15:10:03,280 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 15:10:03,367 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 15:10:03,398 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 15:10:03,507 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 15:10:03,539 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 15:10:03,601 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 15:10:03,632 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 15:10:03,742 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 15:10:03,757 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 15:10:03,757 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 15:10:03,804 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 15:10:03,914 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 15:10:03,960 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 15:10:04,130 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 15:10:04,880 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 235mS.
+2020-09-23 15:10:04,880 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 15:10:05,195 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 15:10:07,592 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2712mS.
+2020-09-23 15:10:07,592 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 15:10:07,592 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 15:12:47,246 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 782239968 Bytes (1073741824)
+2020-09-23 15:12:47,340 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 791677152 Bytes (1073741824)
+2020-09-23 15:12:52,270 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 338170072 Bytes (1073741824)
+2020-09-23 15:12:52,473 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 15:13:00,839 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 15:13:00,839 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 15:13:00,839 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 15:13:00,839 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 15:13:00,839 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 15:13:00,839 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 15:13:01,049 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 15:13:01,109 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 15:13:01,136 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 15:13:01,214 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 15:13:01,245 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 15:13:01,292 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 15:13:01,386 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 15:13:01,417 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 15:13:01,495 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 15:13:01,542 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 15:13:01,651 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 15:13:01,667 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 15:13:01,729 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 15:13:01,761 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 15:13:01,870 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 15:13:01,901 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 15:13:01,901 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 15:13:01,933 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 15:13:02,057 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 15:13:02,113 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 15:13:02,281 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 15:13:02,921 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 125mS.
+2020-09-23 15:13:02,921 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 15:13:03,710 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 15:13:05,194 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2273mS.
+2020-09-23 15:13:05,195 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-09-23 15:13:05,199 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 15:36:17,911 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 771260616 Bytes (1073741824)
+2020-09-23 15:36:18,083 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824240912 Bytes (1073741824)
+2020-09-23 15:36:18,352 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 878766864 Bytes (1073741824)
+2020-09-23 15:36:18,571 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 15:36:19,943 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 15:36:19,943 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 15:36:19,943 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 15:36:19,943 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 15:36:19,943 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 15:36:19,943 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 15:36:20,149 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 15:36:20,212 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 15:36:20,258 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 15:36:20,337 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 15:36:20,383 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 15:36:20,415 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 15:36:20,508 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 15:36:20,531 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 15:36:20,640 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 15:36:20,671 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 15:36:20,827 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 15:36:20,843 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 15:36:20,937 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 15:36:20,968 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 15:36:21,152 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 15:36:21,183 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 15:36:21,183 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 15:36:21,245 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 15:36:21,355 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 15:36:21,386 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 15:36:21,558 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 15:36:22,402 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 219mS.
+2020-09-23 15:36:22,402 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 15:36:22,714 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 15:36:25,090 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2688mS.
+2020-09-23 15:36:25,090 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 15:36:25,090 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:17:03,976 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:17:04,041 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:17:08,126 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:17:08,185 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:19:18,983 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 628056192 Bytes (1073741824)
+2020-09-23 16:19:19,123 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 637495424 Bytes (1073741824)
+2020-09-23 16:19:23,945 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 758079616 Bytes (1073741824)
+2020-09-23 16:19:24,167 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 16:19:26,173 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:19:26,173 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:19:26,173 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:19:26,173 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:19:26,173 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:19:26,174 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:19:26,392 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:19:26,454 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:19:26,501 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:19:26,642 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:19:26,704 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:19:26,735 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:19:26,829 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:19:26,860 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:19:26,923 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:19:26,970 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:19:27,088 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:19:27,113 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:19:27,173 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:19:27,213 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:19:27,330 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:19:27,348 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:19:27,348 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:19:27,410 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:19:27,535 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:19:27,567 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:19:27,723 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:19:28,820 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 534mS.
+2020-09-23 16:19:28,820 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:19:29,131 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:19:31,252 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2432mS.
+2020-09-23 16:19:31,252 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:19:31,268 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 16mS.
+2020-09-23 16:24:37,865 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:24:37,927 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:24:43,617 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:24:43,679 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:24:54,951 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 799891056 Bytes (1073741824)
+2020-09-23 16:24:55,044 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 809324960 Bytes (1073741824)
+2020-09-23 16:24:58,177 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 407096552 Bytes (1073741824)
+2020-09-23 16:24:58,411 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 16:24:59,744 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:24:59,744 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:24:59,744 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:24:59,744 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:24:59,744 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:24:59,744 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:24:59,931 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:24:59,994 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:25:00,049 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:25:00,120 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:25:00,152 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:25:00,184 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:25:00,262 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:25:00,293 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:25:00,356 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:25:00,402 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:25:00,496 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:25:00,527 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:25:00,598 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:25:00,630 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:25:00,739 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:25:00,755 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:25:00,755 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:25:00,786 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:25:00,880 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:25:00,927 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:25:01,127 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:25:01,851 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 172mS.
+2020-09-23 16:25:01,867 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:25:02,346 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:25:04,129 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2262mS.
+2020-09-23 16:25:04,130 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:25:04,135 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:26:11,875 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 349530712 Bytes (1073741824)
+2020-09-23 16:26:11,937 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 359494464 Bytes (1073741824)
+2020-09-23 16:26:15,677 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 462688784 Bytes (1073741824)
+2020-09-23 16:26:15,896 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 16:26:17,636 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:26:17,636 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:26:17,636 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:26:17,636 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:26:17,636 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:26:17,636 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:26:17,823 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:26:17,886 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:26:17,917 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:26:17,995 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:26:18,037 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:26:18,069 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:26:18,155 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:26:18,178 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:26:18,248 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:26:18,279 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:26:18,373 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:26:18,404 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:26:18,467 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:26:18,498 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:26:18,592 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:26:18,623 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:26:18,623 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:26:18,654 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:26:18,748 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:26:18,795 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:26:18,951 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:26:19,659 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 109mS.
+2020-09-23 16:26:19,659 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:26:19,956 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:26:21,903 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2244mS.
+2020-09-23 16:26:21,904 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:26:21,908 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:44:02,969 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:44:03,032 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:44:07,158 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 881385168 Bytes (1073741824)
+2020-09-23 16:44:07,421 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 356801792 Bytes (1073741824)
+2020-09-23 16:44:09,570 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 417608536 Bytes (1073741824)
+2020-09-23 16:44:09,811 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:44:09,811 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:44:09,811 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:44:09,811 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:44:09,811 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:44:09,811 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:44:10,000 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:44:10,071 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:44:10,112 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:44:10,175 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:44:10,206 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:44:10,236 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:44:10,332 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:44:10,347 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:44:10,416 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:44:10,463 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:44:10,563 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:44:10,595 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:44:10,652 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:44:10,683 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:44:10,833 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:44:10,864 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:44:10,864 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:44:10,902 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:44:11,002 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:44:11,043 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:44:11,210 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:44:11,882 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 131mS.
+2020-09-23 16:44:11,882 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:44:12,329 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:44:13,857 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1975mS.
+2020-09-23 16:44:13,858 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:44:13,862 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:53:21,357 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:53:21,409 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:53:28,960 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 900612136 Bytes (1073741824)
+2020-09-23 16:53:29,096 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 384099992 Bytes (1073741824)
+2020-09-23 16:53:31,859 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 461716456 Bytes (1073741824)
+2020-09-23 16:53:32,076 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 16:54:03,142 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:54:03,142 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:54:03,142 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:54:03,143 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:54:03,143 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:54:03,144 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:54:03,346 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:54:03,407 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:54:03,447 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:54:03,510 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:54:03,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:54:03,574 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:54:03,700 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:54:03,722 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:54:03,793 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:54:03,830 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:54:03,965 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:54:03,987 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:54:04,071 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:54:04,105 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:54:04,236 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:54:04,255 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:54:04,256 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:54:04,302 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:54:04,424 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:54:04,465 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:54:04,607 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:54:05,659 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 131mS.
+2020-09-23 16:54:05,662 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:54:06,014 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:54:07,374 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1712mS.
+2020-09-23 16:54:07,375 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-09-23 16:54:07,380 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 16:59:41,142 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:59:41,188 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 16:59:43,181 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 538092096 Bytes (1073741824)
+2020-09-23 16:59:43,424 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 556705080 Bytes (1073741824)
+2020-09-23 16:59:45,786 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 586591536 Bytes (1073741824)
+2020-09-23 16:59:46,024 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 16:59:46,024 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 16:59:46,024 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 16:59:46,024 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 16:59:46,024 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 16:59:46,025 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 16:59:46,231 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 16:59:46,301 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 16:59:46,338 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 16:59:46,422 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 16:59:46,457 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 16:59:46,499 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 16:59:46,615 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 16:59:46,640 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 16:59:46,711 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 16:59:46,754 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 16:59:46,859 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 16:59:46,882 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 16:59:46,942 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 16:59:46,993 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 16:59:47,144 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 16:59:47,171 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 16:59:47,172 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 16:59:47,212 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 16:59:47,310 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 16:59:47,347 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 16:59:47,585 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 16:59:48,411 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 199mS.
+2020-09-23 16:59:48,414 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 16:59:48,739 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 16:59:50,846 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2432mS.
+2020-09-23 16:59:50,848 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-09-23 16:59:50,851 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 17:08:31,312 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:08:31,358 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:08:38,229 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 634363472 Bytes (1073741824)
+2020-09-23 17:08:38,466 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 652976456 Bytes (1073741824)
+2020-09-23 17:08:41,172 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 717140104 Bytes (1073741824)
+2020-09-23 17:08:41,412 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 17:08:41,413 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 17:08:41,413 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 17:08:41,413 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 17:08:41,413 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 17:08:41,414 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 17:08:41,618 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 17:08:41,677 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 17:08:41,715 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 17:08:41,803 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 17:08:41,833 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 17:08:41,866 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 17:08:41,983 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 17:08:42,005 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 17:08:42,098 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 17:08:42,135 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 17:08:42,328 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 17:08:42,349 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 17:08:42,427 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 17:08:42,472 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 17:08:42,622 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 17:08:42,651 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 17:08:42,652 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 17:08:42,702 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 17:08:42,793 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 17:08:42,831 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 17:08:42,978 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 17:08:43,654 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 125mS.
+2020-09-23 17:08:43,657 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 17:08:43,958 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 17:08:46,031 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 2374mS.
+2020-09-23 17:08:46,031 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 17:08:46,036 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 17:10:24,037 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:10:24,080 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:10:32,199 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:10:35,636 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:10:42,276 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 429873184 Bytes (1073741824)
+2020-09-23 17:10:42,399 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 448131192 Bytes (1073741824)
+2020-09-23 17:10:44,559 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 531494504 Bytes (1073741824)
+2020-09-23 17:10:44,768 [INFO] ProjectBuilder:1816 - IP not ready for code generation: SPI1
+2020-09-23 17:10:46,036 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 17:10:46,036 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 17:10:46,036 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 17:10:46,036 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 17:10:46,036 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 17:10:46,037 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 17:10:46,237 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 17:10:46,320 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 17:10:46,358 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 17:10:46,441 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 17:10:46,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 17:10:46,507 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 17:10:46,592 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 17:10:46,615 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 17:10:46,723 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 17:10:46,776 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 17:10:46,912 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 17:10:46,936 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 17:10:46,999 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 17:10:47,035 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 17:10:47,151 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 17:10:47,172 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 17:10:47,172 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 17:10:47,206 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 17:10:47,295 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 17:10:47,346 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 17:10:47,495 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 17:10:48,221 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 123mS.
+2020-09-23 17:10:48,224 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 17:10:48,546 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 17:10:50,161 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1937mS.
+2020-09-23 17:10:50,161 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 17:10:50,165 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 17:12:13,310 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:12:20,230 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:12:25,560 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:12:25,665 [INFO] Gpio:250 - dependency for GPIO [SPI1, SYS]
+2020-09-23 17:12:31,588 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 445801616 Bytes (1073741824)
+2020-09-23 17:12:31,826 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 471068104 Bytes (1073741824)
+2020-09-23 17:12:35,056 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 536079816 Bytes (1073741824)
+2020-09-23 17:12:35,283 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SPI
+2020-09-23 17:12:35,283 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-09-23 17:12:35,284 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-09-23 17:12:35,284 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-09-23 17:12:35,284 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-09-23 17:12:35,285 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.1.202008101643\\db\
+2020-09-23 17:12:35,492 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp_save
+2020-09-23 17:12:35,575 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\license.tmp
+2020-09-23 17:12:35,619 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp_save
+2020-09-23 17:12:35,686 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\gpio.tmp
+2020-09-23 17:12:35,715 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-09-23 17:12:35,750 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c_save
+2020-09-23 17:12:35,883 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_it.c
+2020-09-23 17:12:35,907 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h_save
+2020-09-23 17:12:35,979 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_it.h
+2020-09-23 17:12:36,019 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c_save
+2020-09-23 17:12:36,159 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\stm32f1xx_hal_msp.c
+2020-09-23 17:12:36,181 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp_save
+2020-09-23 17:12:36,283 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\MXTmpFiles\system.tmp
+2020-09-23 17:12:36,339 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h_save
+2020-09-23 17:12:36,485 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\stm32f1xx_hal_conf.h
+2020-09-23 17:12:36,513 [WARN] IPConfigManager:2884 - IP not found : gpio
+2020-09-23 17:12:36,514 [WARN] CodeGenerator:2866 - IP not found : gpio
+2020-09-23 17:12:36,552 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h_save
+2020-09-23 17:12:36,635 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Inc\main.h
+2020-09-23 17:12:36,679 [INFO] CodeEngine:188 - oldGeneratedFile, C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c_save
+2020-09-23 17:12:37,023 [INFO] CodeEngine:206 - Generated code: C:\ST\Codigos\Testes\STM32F103C8T6_SSD1351\STM32F103C8T6_SSD1351\Core\Src\main.c
+2020-09-23 17:12:37,690 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 157mS.
+2020-09-23 17:12:37,693 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-09-23 17:12:38,008 [INFO] ConfigFileManager:1183 - The Die is : DIE410
+2020-09-23 17:12:39,467 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1774mS.
+2020-09-23 17:12:39,468 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2020-09-23 17:12:39,471 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-09-23 18:01:22,716 [INFO] ApiDb:226 - Save user favorites file C:\Users\Alexandre/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-09-23 18:01:22,716 [INFO] ApiDb:230 - User favorites MCUs=[]

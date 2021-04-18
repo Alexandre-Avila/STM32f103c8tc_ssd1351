@@ -1,0 +1,1 @@
+Inicio do GIT no Core 2 Quad 18/04/2021
